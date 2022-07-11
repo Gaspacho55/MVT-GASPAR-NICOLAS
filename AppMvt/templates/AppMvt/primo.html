@@ -8,5 +8,10 @@
 </head>
 <body>
     PRIMO
+    <hr>
+    {% for key, valor in primo.items%}
+      <h3>{{ key.upper }}</h3>
+      <p>{{ valor}}</p>
+    {% endfor %}
 </body>
 </html>

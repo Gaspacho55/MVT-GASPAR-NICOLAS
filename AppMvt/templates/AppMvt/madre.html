@@ -8,8 +8,11 @@
 </head>
 <body>
   MADRE
-  
-  <p> {{texto2}}  </p>
+  <hr>
+  {% for key, valor in madre.items%}
+    <h3>{{ key.upper }}</h3>
+    <p>{{ valor}}</p>
+  {% endfor %}
   
 </body>
 </html>

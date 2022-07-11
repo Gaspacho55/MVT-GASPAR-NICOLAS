@@ -55,7 +55,7 @@ ROOT_URLCONF = 'ProyectoMvt.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/Gaspar/Desktop/virtualStudio/mvt/ProyectoMvt/AppMvt/templates/'],
+        'DIRS': ['../MVT-GASPAR-NICOLAS/AppMvt/templates/AppMvt/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
